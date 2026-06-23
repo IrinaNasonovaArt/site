@@ -171,3 +171,17 @@ max-width:800px{
         grid-template-columns:1fr;
     }
 }
+.work-text{
+    margin-top:12px;
+}
+
+.work-text summary{
+    cursor:pointer;
+    color:#666;
+    font-size:14px;
+}
+
+.work-text p{
+    margin-top:12px;
+    line-height:1.7;
+}
