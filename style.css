@@ -33,3 +33,32 @@ body{font-family:Inter,sans-serif;line-height:1.6}
 .about-grid{grid-template-columns:1fr}
 .hero h1{font-size:52px}
 }
+.main-nav{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.nav-links{
+    display:flex;
+    gap:25px;
+}
+
+.nav-links a{
+    text-decoration:none;
+    color:#111;
+    font-size:14px;
+    text-transform:uppercase;
+    letter-spacing:0.05em;
+}
+
+.nav-links a:hover{
+    opacity:0.5;
+}
+
+.logo{
+    text-decoration:none;
+    color:#111;
+    font-family:"Cormorant Garamond",serif;
+    font-size:20px;
+}
