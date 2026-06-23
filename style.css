@@ -33,6 +33,7 @@ body{font-family:Inter,sans-serif;line-height:1.6}
 .about-grid{grid-template-columns:1fr}
 .hero h1{font-size:52px}
 }
+
 .gallery-grid{
     display:grid;
     grid-template-columns:repeat(2,1fr);
