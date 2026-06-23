@@ -62,3 +62,26 @@ body{font-family:Inter,sans-serif;line-height:1.6}
     font-family:"Cormorant Garamond",serif;
     font-size:20px;
 }
+.hero{
+    padding:140px 0;
+    text-align:center;
+
+    background-image:url("photos_artist/hero.jpg");
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+
+    position:relative;
+}
+.hero::before{
+    content:"";
+    position:absolute;
+    inset:0;
+    background:rgba(255,255,255,0.55);
+}
+hero h1,
+.hero p{
+    position:relative;
+    z-index:1;
+}
+
