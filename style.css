@@ -99,3 +99,37 @@ hero h1,
     width:100%;
     display:block;
 }
+.contact-block{
+    margin-top:20px;
+    display:flex;
+    flex-direction:column;
+    gap:18px;
+    max-width:500px;
+}
+
+.contact-item{
+    display:flex;
+    flex-direction:column;
+    gap:4px;
+}
+
+.contact-item .label{
+    font-size:13px;
+    letter-spacing:0.08em;
+    text-transform:uppercase;
+    color:#888;
+}
+
+.contact-item a{
+    font-size:18px;
+    color:#111;
+    text-decoration:none;
+    border-bottom:1px solid transparent;
+    width:max-content;
+    transition:opacity .2s ease, border-color .2s ease;
+}
+
+.contact-item a:hover{
+    opacity:0.6;
+    border-bottom:1px solid #ddd;
+}
