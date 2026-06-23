@@ -84,4 +84,18 @@ hero h1,
     position:relative;
     z-index:1;
 }
+.gallery-grid{
+    display:grid;
+    grid-template-columns:repeat(2, 1fr);
+    gap:60px;
+    align-items:start;
+}
 
+.gallery-grid .artwork{
+    margin:0;
+}
+
+.gallery-grid img{
+    width:100%;
+    display:block;
+}
